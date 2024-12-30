@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-column, .right-column {
+    width: 48%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.footer-content {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-btn {
+    margin: 0 5px;
+    color: white;
+}
